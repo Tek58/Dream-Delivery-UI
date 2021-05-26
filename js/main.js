@@ -6,7 +6,14 @@ document.getElementById("restorant").onclick = function () {
 document.getElementById("home").onclick = function () {
     location.href = "home.html";
 };
-
+// rating
+$(".rating").rateYo(
+	{
+		rating: (Math.random() * (5 - 0 + 1) + 0),
+		starWidth: "20px",
+		readOnly: true
+	}
+  );
 
 (function($,sr) {
 	// debouncing function from John Hann

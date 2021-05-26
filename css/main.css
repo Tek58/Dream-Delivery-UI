@@ -1,9 +1,4 @@
-/*  
-Theme Name: MeatKing
-Version:    1.14.20
-Author:     ThemeWagon
-
-
+/* 
 TABLE OF CONTENTS
     01 - General and Typography
     02 - Header
@@ -48,15 +43,7 @@ section::before,section::after {
 /* ==========================================================================
     02. Header 
 ========================================================================== */
-#header {
-    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4) ), url(../img/home.jpg);
-    -moz-background-size:cover;
-    background-size:cover;
-    background-position:center center;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    position:relative;
-}
+
 .bg-overlay {
     position:absolute;
     top:0;
@@ -242,9 +229,14 @@ section::before,section::after {
     padding-bottom:10px;
 }
 #restorant_location{
+    display: flex;
     text-align: left;
     color: #aa6c52;
     font-style: italic;
+}
+.rating{
+    text-align: right;
+    padding-left: 7rem;
 }
 #food-menu ul {
     margin:0;
