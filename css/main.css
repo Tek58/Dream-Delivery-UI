@@ -155,7 +155,7 @@ section::before,section::after {
     font-weight:600;
 }
 .main.lead {
-    margin-bottom:80px;
+    margin-bottom:50px;
 }
 .lead {
     font-size:17px;
@@ -233,13 +233,18 @@ section::before,section::after {
     text-align:center;
     margin:0 auto;
 }
-.menu-titles h1 {
+.menu-titles h3 {
     text-shadow:none;
     color:#ed0121;
     text-align:center;
     margin:0 auto;
-    padding-top:30px;
-    padding-bottom:15px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+#restorant_location{
+    text-align: left;
+    color: #aa6c52;
+    font-style: italic;
 }
 #food-menu ul {
     margin:0;
@@ -247,6 +252,7 @@ section::before,section::after {
     list-style:none;
 }
 .menu-images img {
+    height: 20rem;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
