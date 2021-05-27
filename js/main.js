@@ -1,6 +1,6 @@
 // navbar
 document.getElementById("restorant").onclick = function () {
-    location.href = "restorants.html";
+    location.href = "restaurants.html";
 };
 
 document.getElementById("home").onclick = function () {
