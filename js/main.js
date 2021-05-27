@@ -4,7 +4,7 @@ document.getElementById("restorant").onclick = function () {
 };
 
 document.getElementById("home").onclick = function () {
-    location.href = "home.html";
+    location.href = "index.html";
 };
 // rating
 $(".rating").rateYo(

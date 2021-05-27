@@ -10,10 +10,13 @@
 
     <!-- css -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/restorant.css">
 
     <!-- google font -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Kreon:300,400,700'>
@@ -36,13 +39,13 @@
                 <a class="navbar-brand" href="#"><h2>Dream Delivery</h2></a>
             </div><!-- navbar-header -->
         <div id="navbar" class="navbar-collapse collapse">
-            <div class="hidden-xs" id="logo"><a href="index.html">
+            <div class="hidden-xs" id="logo"><a id="home" href="index.html">
                 <img src="img/logo.png" alt="">
             </a></div>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#story">Story</a></li>
-                <li><a href="restorants.html">Restorants</a></li>
+                <li><a class="external" href="#story">Story</a></li>
+                <li><a id="restorant" class="external" href="restorants.html">Restorants</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>
 
                 
@@ -59,30 +62,22 @@
     </div><!-- menu -->
 
     <div id="header">
-        <div class="bg-overlay"></div>
-        <div class="center text-center">
-            <!-- <div class="banner">
-                <h1 class="">Meat King</h1>
-            </div>
-            <div class="subtitle"><h4>AWESOME RESTAURANT THEME</h4></div> -->
-            <div class="container">
-                <h1 class="banner">Order Delivery & Take-Out </h1>
-                <p><h3>Find restaurants, specials, and coupons for free</h3></p>
-                <input id="location" name="location" type="text" placeholder="Search for Food or Resturant" value="" class="pac-target-input" autocomplete="off">
-                <!-- <button type="submit" id="submit" ><span>Search <i class="fa fa-search fa-2x"></i></span></button> -->
-                <input  type="submit" value="Search">
-
-                <img id="steps" src="./img/steps.png" alt="">
+        <div class="res_header">
+            <div class="center text-center">
+                <div class="container">
+                    <p><h1 class="titleR">Search your favourite resturant</h1></p>
+                    <p class="detailR">Find restaurants, specials, and coupons for free</p>
+                    <input id="location" name="location" type="text" placeholder="Search for Resturant" value="" class="pac-target-input" autocomplete="off">
+                    <!-- <button type="submit" id="submit" ><span>Search <i class="fa fa-search fa-2x"></i></span></button> -->
+                    <input  type="submit" value="Search">
+                </div>
             </div>
         </div>
-        <div class="bottom text-center">
-            <a id="scrollDownArrow" href="#"><i class="fa fa-chevron-down"></i></a>
-        </div>
+        
     </div>
     <!-- /#header -->
 
-    <!-- our story and facts on notes -->
-
+    
 
 
     <footer id="footer" class="dark-wrapper">
@@ -109,8 +104,10 @@
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/jquery.actual.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 </html>
