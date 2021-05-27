@@ -6,6 +6,9 @@ document.getElementById("restorant").onclick = function () {
 document.getElementById("home").onclick = function () {
     location.href = "index.html";
 };
+document.getElementById("cart").onclick = function () {
+    location.href = "cart.html";
+};
 // rating
 $(".rating").rateYo(
 	{
