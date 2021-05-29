@@ -118,7 +118,7 @@ section::before,section::after {
     font-weight:bold;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#ed0121;
+    background:#e91430;
     color:white;
     text-shadow:none;
 }

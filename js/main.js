@@ -9,6 +9,12 @@ document.getElementById("home").onclick = function () {
 document.getElementById("cart").onclick = function () {
     location.href = "cart.html";
 };
+document.getElementById("login").onclick = function () {
+    location.href = "login.html";
+};
+document.getElementById("register").onclick = function () {
+    location.href = "register.html";
+};
 // rating
 $(".rating").rateYo(
 	{
